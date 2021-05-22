@@ -22,7 +22,7 @@ public class UserManager implements CheckUserManager {
 			
 	@Override
 	public void CheckIfRealPerson(User user) {
-		if(user.getId()==1 && user.getFirstName()=="Barýþ" && user.getLastName()=="Bingöl" && user.getNationalityId()=="0606" && user.getDayOfBirth()=="19.01.2002")
+		if(user.getId()==1 && user.getFirstName()=="Baris" && user.getLastName()=="Bingöl" && user.getNationalityId()=="0606" && user.getDayOfBirth()=="19.01.2002")
 		{
 			System.out.println(user.getFirstName() + "isimli kiþinin doðrulamasý yapýldý.");
 		}else

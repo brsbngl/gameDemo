@@ -10,9 +10,9 @@ import entities.User;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("----------------------Kullanýcý Kayýt----------------------------");
-		User user1 = new User(1," Barýþ ","Bingöl","0606","19.01.2002");
-		User user2 = new User(2," Dilara ","Yýldýz","123479","30.03.2004");
+		System.out.println("----------------------Kullanici Kayit----------------------------");
+		User user1 = new User(1," Baris ","Bingöl","0606","19.01.2002");
+		User user2 = new User(2," Dilara ","Yildiz","123479","30.03.2004");
 		UserManager userManager = new UserManager();
 		userManager.signUp(user1);
 		userManager.signIn(user2);
@@ -23,7 +23,7 @@ public class Main {
 		userManager2.CheckIfRealPerson(user2);
 		
 		System.out.println(" ");
-		System.out.println("---------------------Bilgi güncelleme-----------------------------");
+		System.out.println("---------------------Bilgi Güncelleme-----------------------------");
 		
 		userManager.signUpdate(user1);
 		userManager.signUpdate(user2);
@@ -45,7 +45,7 @@ public class Main {
 		
 		System.out.println(" ");
 		
-		System.out.println("------------------------Satýþ--------------------------");
+		System.out.println("------------------------Satis--------------------------");
 		
 		sellingManager.Sell(user1, game,campaign);
 
